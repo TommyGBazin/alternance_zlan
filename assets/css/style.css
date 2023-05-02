@@ -1,5 +1,14 @@
+:root {
+    --primary-color : #9cff00;
+}
+
 body {
     color: white;
     font-family: 'Montserrat';
     background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
 }
