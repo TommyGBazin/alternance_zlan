@@ -8,7 +8,58 @@ body {
     background-color: black;
 }
 
+.welcome__txt {
+    font-size: 48px;
+    line-height: 56px;
+    animation: fadeTop 1s forwards;
+    letter-spacing: -2px;
+}
+
+@media screen and (min-width: 768px) {
+    .welcome__txt {
+      font-size: 60px;
+      line-height: 68px;
+      letter-spacing: -4px;
+    }
+}
+
 a {
     text-decoration: none;
     color: var(--primary-color);
+}
+
+.style__text {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.style__text2 {
+    color: #ffffff85;
+}
+
+.style__text3 {
+    font-weight: 600;
+    color: white !important;
+}
+
+.btn {
+    padding: 8px 28px;
+}
+
+.btn-primary {
+    color: black;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+lottie-player {
+    width: 150px;
+    height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+    lottie-player {
+        width: 300px;
+        height: 300px;
+    }
 }
